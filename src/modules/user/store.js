@@ -5,7 +5,7 @@ const NEW_USER = {
 };
 
 export default {
-  namespace: true,
+  namespaced: true,
   modules: {
     collection: COLLECTION_MODULE({ NEW_MODEL: NEW_USER })
   }

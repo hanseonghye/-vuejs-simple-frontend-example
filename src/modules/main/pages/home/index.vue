@@ -80,7 +80,7 @@
 
           <hr />
 
-          <!-- <div class="columns is-multiline is-mobile">
+          <div class="columns is-multiline is-mobile">
             <div class="column is-one-quarter">
               <div class="tile is-parent">
                 <article class="title is-child box">
@@ -98,7 +98,7 @@
                 </article>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
@@ -120,8 +120,8 @@ export default {
     HomeFooter
   },
   computed: mapGetters({
-    users: "user/collection/items"
-    // tasks: "task/collection/items"
+    users: "user/collection/items",
+    tasks: "task/collection/items"
   })
 };
 </script>
